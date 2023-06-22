@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.carrent'
+    namespace 'com.example.carrental'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.carrent"
+        applicationId "com.example.carrental"
         minSdk 28
         targetSdk 33
         versionCode 1

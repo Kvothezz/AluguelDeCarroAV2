@@ -14,22 +14,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="92dp"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/txtSobre_Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="324dp"
-        android:textSize="25sp"
+        android:layout_marginEnd="280dp"
+        android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/txtSobre_Redes"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,12 +39,12 @@
         android:id="@+id/txtSobre_Emailt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:textSize="23sp"
+        android:layout_marginEnd="84dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtSobre_Redes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSobre"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintVertical_bias="0.382" />
 
     <TextView
         android:id="@+id/txtSobre_Redes"
@@ -58,7 +57,19 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintVertical_bias="0.602" />
+
+    <ImageView
+        android:id="@+id/imageViewInstagramLogo"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="132dp"
+        android:src="@drawable/ic_instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSobre_Redes"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageViewFacebookLogo"
@@ -71,19 +82,7 @@
         app:layout_constraintHorizontal_bias="0.635"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSobre_Redes"
-        app:layout_constraintVertical_bias="0.485" />
-
-    <ImageView
-        android:id="@+id/imageViewInstagramLogo"
-        android:layout_width="73dp"
-        android:layout_height="73dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="132dp"
-        android:src="@drawable/ic_instagram"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtSobre_Redes"
-        app:layout_constraintVertical_bias="0.504" />
+        app:layout_constraintVertical_bias="0.962" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
